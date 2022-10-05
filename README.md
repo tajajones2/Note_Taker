@@ -4,7 +4,7 @@
 
 This is a small note taking application the allows the user write and save notes. Its nice to have place jot down thoughts and keep track of tasks that need completed.
 
-## Table of Contents (Optional)
+## Table of Contents
 
 
 - [Installation](#installation)
@@ -71,7 +71,8 @@ The last section of a high-quality README file is the license. This lets other d
 
 ## Badges
 
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
+![badmath](https://img.shields.io/github/languages/top/tajajones2/Note_Taker)
+![language](https://img.shields.io/github/languages/count/tajajones2/Note_Taker)
 
 
 
