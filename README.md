@@ -17,6 +17,7 @@ This is a small note taking application the allows the user write and save notes
 1. Download or clone repo
 2. Install nodejs https://nodejs.org/en/download/
 3. Run npm i in terminal while under the repo directory
+3. Run npm start to port listening
 
 ## Usage
 
@@ -29,14 +30,8 @@ This is a small note taking application the allows the user write and save notes
 Mock-Up
 
 
-
-
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+![alt text](images/note%20taker%20with%20express.png)
+    
 
 ## Credits
 I credit myself, Taja Jones, for completing a Note Take application by using javascript and express.js.

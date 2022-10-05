@@ -6,6 +6,7 @@ const path = require("path");
 let db = require("./db/db.json");
 app.use(express.json());
 app.use(express.static("public"));
+const uuid = require('./helpers/uuid');
 
 
 // Root page
@@ -57,6 +58,10 @@ app.delete("/api/notes/:id", async (req, res) => {
 
     res.json(db);
 });
+
+app.get("*", (req, res) => {
+    res.sendFile(path.join(__dirname, "/public/index.html"));
+  })
 
 // Server starts listening on a port
 app.listen(PORT, () => {
