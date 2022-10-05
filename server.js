@@ -3,7 +3,7 @@ const app = express();
 const fs = require("fs");
 const PORT = process.env.PORT || 3001;
 const path = require("path");
-
+let db = require("./db/db.json");
 
 // Root page
 app.get("/", (req, res) => {
@@ -45,3 +45,10 @@ app.post("/api/notes", (req, res) => {
   }
   res.json(db);
 });
+
+
+// Server starts listening on a port
+app.listen(PORT, () => {
+    console.log(`Listening on port ${PORT} http://localhost:${PORT}/`);
+  });
+ 
