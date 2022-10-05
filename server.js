@@ -55,8 +55,10 @@ app.delete("/api/notes/:id", async (req, res) => {
     // Get id param from clientside js on button click
     db = db.filter((note) => note.id !== req.params.id);
 
+    res.json(db);
+});
+
 // Server starts listening on a port
 app.listen(PORT, () => {
     console.log(`Listening on port ${PORT} http://localhost:${PORT}/`);
   });
- 
